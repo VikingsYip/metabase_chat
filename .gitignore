@@ -1,0 +1,8 @@
+# 排除所有文件
+*
+
+# 但不排除 .gitignore 本身
+!.gitignore
+
+# 只保留 .env.example
+!.env.example
