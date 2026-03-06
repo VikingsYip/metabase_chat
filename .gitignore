@@ -1,5 +1,6 @@
-# 排除所有非 .py 文件
+# 排除所有非 .py/.md 文件
 !*.py
+!*.md
 
 # 但排除 .gitignore
 !.gitignore
