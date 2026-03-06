@@ -1,8 +1,21 @@
-# 排除所有文件
-*
+# 排除所有非 .py 文件
+!*.py
 
-# 但不排除 .gitignore 本身
+# 但排除 .gitignore
 !.gitignore
 
-# 只保留 .env.example
+# 保留 .env.example
 !.env.example
+
+# 排除编译的 Python 文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Python egg
+*.egg-info/
+dist/
+build/
